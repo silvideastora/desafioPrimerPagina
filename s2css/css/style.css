@@ -1,94 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
+.first-square{
+    width: 10vw;
+    height: 10vw;
+    background: darkcyan;
 }
 
-#contenedor{
-    width: 80vw;
-    height:100vh;
-    background-color: rgb(15, 7, 87);
-    margin: 0.5em auto;
-    padding: 0.4em;
-    text-align: center;     
+.second-square{
+    background-image: url(https://picsum.photos/id/237/200/300);
+    width: 25vw ;
+    height: calc(25vw / 2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-header{
-    background:linear-gradient(to bottom, rgb(240, 104, 104),white);
-    height: 20%;
-    margin: 5px;
-    border-radius: 5px;
+.last-square{
+    width: 500px;
+    height: 500px;
+    background-color: darkgrey;
 }
 
-header h2{
-    padding-top: 60px;
-}
-
-nav{
-    background:linear-gradient(to bottom, rgb(38, 82, 194),white);
-    height: 20%;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-nav h2{
-    padding-top: 60px;
-}
-
-#contenido{
-    height: 40%;
-    margin: 5px;  
-    display: flex;       
-}
-
-#seccion{
-    height: 97%;
-    width: 68%;
-    background-color: rgb(132, 189, 75);
-    border-radius: 5px;
-    margin-right: 5px;
-}
-
-#seccion #heading{
-    background:linear-gradient(to bottom, rgb(240, 104, 104),white);
-    height: 20%;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-#heading h2{
-    padding: 15px;
-}
-
-#articulo{
-    background:linear-gradient(to bottom, rgb(124, 21, 150),white);
-    height: 67%;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-#articulo h2{
-    padding: 80px;
-}
-    
-#aside{
-    height: 97%;
-    width: 32%;
-    background-color: rgb(142, 142, 143);
-    margin: 2.5spx;
-    border-radius: 5px;    
-}
-
-#aside h2{
-    padding: 130px;
-}
-
-footer{
-    background:linear-gradient(to bottom, rgb(238, 184, 36), white);
-    height: 17.5%;
-    margin: 5px;
-    border-radius: 4px;
-}
-
-footer h2{
-    padding: 65px;
+.circle{
+    width: calc((500px / 5) * 3 * 2);
+    height: calc((500px / 5) * 3 * 2);
+    background-color: darkred;
+    border-radius: 50%;
 }
