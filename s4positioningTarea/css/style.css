@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin: 1rem;
+}
+
+/*Primer ejercicio*/
+
+.container{
+    background: lightblue;
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+}
+
+.container-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    background: darkcyan;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+/*---------------------*/
+
+/*Segundo ejercicio*/
+
+.column-subcontainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.normal-subcontainer{
+    width: 50%;
+    display: flex;
+}
+
+.subcontainer-1{
+    
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.subcontainer-2{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/*Tercer ejercicio */
+.subcontainer-3{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*4to ejercicio*/
+
+.E4-container{
+    background: lightblue;
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+
+}
+
+.E4-subcontainer{
+    width: calc((100vw) / 3);
+    height: 100%;
+    display: flex;
+}
+
+.E4-subcontainer-left{
+    justify-content: flex-start;
+}
+
+.E4-subcontainer-right{
+    justify-content: flex-end;
+}
+
+.E4-subcontainer-center{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.square-height-100{
+    width: 50px;
+    /*Por defecto toma el valor de 100 si no se le coloca altura.*/
+    height: 100%;
+    background-color:darkcyan;
+}
+
+/*5to ejercicio*/
+
+.E5-container{
+        background: lightblue;
+        display: flex;
+        height: 50vh;
+        width: 100vw;
+}
+
+
+.E5-subcontainer-left{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.E5-subcontainer-center{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.E5-subcontainer-right{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*Ejercicio 6*********************/
+
+.E6-container{
+    background: lightblue;
+    flex-direction: column;
+        display: flex;
+        height: 50vh;
+        width: 100vw;
+}
+
+/*subcontainer 1*/
+.E6-subcontainer-1{
+    width: 100%;
+    height: calc(100% / 5);
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Subcontainer 1 squares*/
+
+.E6-square-1{
+    width: 15%;
+    height: 100%;
+    background: red;
+}
+
+.E6-square-2{
+    width: 70%;
+    height: 100%;
+    background:lightcoral;
+}
+
+/*Subcontainer 2*/
+
+.E6-subcontainer-2{
+    display: flex;
+    width: 100%;
+    height: calc((100% / 5) * 3);
+}
+
+.E6-square-3{
+    width: 50%;
+    background:blue;
+}
+
+.E6-square-4{
+    width: 50%;
+    background:darkcyan;
+}
+
+/*Subcontainer 3*/
+
+.E6-subcontainer-3{
+    display: flex;
+    width: calc(100%);
+    height: calc(100% / 5);
+}
+
+.E6-square-5{
+    width: 100%;
+    background:lightgreen;
+}
+
+
+
+
+
+
+

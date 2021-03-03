@@ -1,0 +1,24 @@
+.square{
+    width: 75px;
+    height: 75px;
+}
+.bg-red{
+    background-color: darkred;
+}
+
+.bg-peru{
+    background-color: peru;
+}
+
+.center-by-margin{
+    margin-left: calc( 50% - 35px );    
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.by-navy{
+    margin-left: auto;
+    margin-right: auto;
+}
