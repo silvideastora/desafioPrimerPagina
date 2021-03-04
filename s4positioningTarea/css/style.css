@@ -37,10 +37,7 @@ h1{
     flex-direction: column;
 }
 
-.normal-subcontainer{
-    width: 50%;
-    display: flex;
-}
+
 
 .subcontainer-1{
     
@@ -57,6 +54,11 @@ h1{
 .subcontainer-3{
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.normal-subcontainer{
+    width: 50%;
+    display: flex;
 }
 
 /*4to ejercicio*/

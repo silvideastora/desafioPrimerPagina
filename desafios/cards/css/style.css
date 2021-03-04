@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer{
+    width: calc((100vw / 3) - 15%);
+    height: calc(100% - 20%);
+    background:white;
+    display: absolute;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    color: black;
+    border: solid black 2px;
+    
+}
+
+.subcontainer:hover{
+    margin-top: -10px;
+    transition-duration: 0.5s;
+    color: white;
+    border: none;
+    box-shadow: 15px 15px 25px gray;
+}
+
+/*Poner el color del fondo del boton inverso*/
+
+button{
+    
+    height: 55px;
+    width: 280px;
+    border-radius: 25px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+    transition-duration: 0.5s;
+    font-size: 1rem;
+}
+
+.subcontainer:hover .sub-cont-top button{
+    background: white;
+    color: #ed4079;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+.subcontainer-content{
+    
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.subcontainer:hover{
+    background: #ed4079;
+}
+
+
+.sub-cont-top{
+    height: calc(100% / 4);
+    justify-content: center;
+}
+
+.sub-cont-middle{
+    height: calc((100% / 4) * 2);
+}
+
+.subcontainer-content h1{
+    font-size: 2.3rem;
+    margin: 20px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.subcontainer-content p{
+    font-size: 1.15rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.d-inline-block{
+    display: block;
+}
+
+.d-inline-block h1, .d-inline-block p{
+    padding: 0px 20px;
+}
+
+.icons{
+    font-size: 5rem;
+}
+
+.align-center{
+    align-items: center;
+    justify-content: center;
+}
+
