@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
+    font-family: 'Public Sans', sans-serif;
     
 }
 
@@ -52,6 +53,15 @@ header{
     border: 1px solid black;
     background-color: white;
     text-align: center;
+
+    h1 {
+        color: #2D314D;
+        font-size: 40px;
+        margin: 0px 0px 40px;
+        font-weight: 300;
+        line-height: 1.3;
+        margin-bottom: .5em;
+    }
 }
 
 .card{
@@ -62,6 +72,38 @@ header{
     margin: 20px;
     color:gray;
 
+    h1 {
+        font-size: 40px;
+        margin: 0px 0px 40px;
+        font-weight: 300;
+        line-height: 1.3;
+        margin-bottom: .5em;
+    }
+    h2 {
+        font-size: 24px;
+        margin: 0px 0px 12px;
+        font-weight: 300;
+        line-height: 1.3;
+        margin-bottom: .5em;
+
+    }
+
+    h3 {
+        color: #9698A6;
+        font-size: 14.4px;
+        margin: 14.4px 0px;
+    }
+
+    h5 {
+        color: #9698A6;
+        font-size: 13.3333px;
+        margin: 13.3333px 0px;
+    }
+    p {
+        color: #9698A6;
+        font-size: 16px;
+        margin: 16px 0px 32px;
+    }
     .subcontainer{
         background: purple;
         width: 90%;
@@ -84,10 +126,12 @@ header{
 
 
 
-footer{
+.footer1 {
     height: 300px;
-    background: red;
+    background-color: #2D314D;
     text-align: center;
+    font-size: 16px ;
+    margin: 0px 0px 32px;
 }
 
 

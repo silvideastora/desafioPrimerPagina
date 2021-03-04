@@ -3,6 +3,7 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Public Sans', sans-serif;
 }
 
 body {
@@ -49,6 +50,15 @@ header nav .nav-right {
   text-align: center;
 }
 
+.card-wrapper h1 {
+  color: #2D314D;
+  font-size: 40px;
+  margin: 0px 0px 40px;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-bottom: .5em;
+}
+
 .card {
   background-color: white;
   display: -webkit-box;
@@ -63,6 +73,40 @@ header nav .nav-right {
           align-items: center;
   margin: 20px;
   color: gray;
+}
+
+.card h1 {
+  font-size: 40px;
+  margin: 0px 0px 40px;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-bottom: .5em;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 0px 0px 12px;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-bottom: .5em;
+}
+
+.card h3 {
+  color: #9698A6;
+  font-size: 14.4px;
+  margin: 14.4px 0px;
+}
+
+.card h5 {
+  color: #9698A6;
+  font-size: 13.3333px;
+  margin: 13.3333px 0px;
+}
+
+.card p {
+  color: #9698A6;
+  font-size: 16px;
+  margin: 16px 0px 32px;
 }
 
 .card .subcontainer {
@@ -84,10 +128,12 @@ header nav .nav-right {
   margin: 10px;
 }
 
-footer {
+.footer1 {
   height: 300px;
-  background: red;
+  background-color: #2D314D;
   text-align: center;
+  font-size: 16px;
+  margin: 0px 0px 32px;
 }
 
 @media only screen and (min-width: 768px) {
